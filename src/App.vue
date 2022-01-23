@@ -1,7 +1,11 @@
 <template>
-  <div id="nav">
+  <div class="flex justify-between" id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/d_web">Desarrollo Web</router-link> |
+    <router-link to="/chatbot">Chatbot</router-link> |
+    <router-link to="/robotica">Robótica</router-link> |
+    <router-link to="/contacto">Contacto</router-link>
   </div>
   <router-view/>
 </template>
