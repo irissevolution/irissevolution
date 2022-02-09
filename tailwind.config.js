@@ -11,12 +11,19 @@ module.exports = {
             lg: '976px',
             xl: '1440px',
         },
+        container: {
+            padding: '2rem',
+            margin: '0rem',
+            height: '100rem',
+          },
         colors: {
-            gray: colors.coolGray,
-            blue: colors.lightBlue,
+            orange: colors.orange,
+            gray: colors.gray,
+            blue: colors.blue,
             red: colors.rose,
             pink: colors.fuchsia,
-            lavamemucho: colors.amber,
+            ambar: colors.amber,
+            white: colors.white,
             'silver': '#ecebff',
             'tahiti': {
                 100: '#cffafe',

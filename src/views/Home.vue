@@ -1,9 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="text-center">
+    <img  alt="Vue logo" src="../assets/logo.png">
   </div>
-  <div class="bg-auto bg-no-repeat bg-center" style="background-image: url(./assets/logo.png)"></div>
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
   <h1 class="bg-tahiti-400 text-3xl font-bold underline">
     Hello world, We are IrisEvolution  HDP!
   </h1>

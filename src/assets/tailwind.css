@@ -7,3 +7,53 @@
       @apply py-2 px-4 bg-blue-500 text-red-500 font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
     }
   }
+  .slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  .container1 {
+    height: 100%;
+    /* Aquí el origen de la imagen */
+    background-image: url(blue.jpg);
+  /* Fijar la imagen de fondo este vertical y
+    horizontalmente y centrado */
+    background-position: center center;
+
+    /* Esta imagen no debe de repetirse */
+    background-repeat: no-repeat;
+  
+    /* COn esta regla fijamos la imagen en la pantalla. */
+    background-attachment: fixed;
+  
+    /* La imagen ocupa el 100% y se reescala */
+    background-size: cover;
+  
+    /* Damos un color de fondo mientras la imagen está cargando  */
+    background-color: #464646;
+  }
+
+  .container2 {
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    /* background-color: red; */
+    width:100vw;
+    height:89vh; 
+  }
+
+  .content {
+    /* display: table-cell; */
+    vertical-align: middle;
+    text-align: center;
+  }
