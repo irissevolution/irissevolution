@@ -57,3 +57,16 @@
     vertical-align: middle;
     text-align: center;
   }
+
+  .containerD_web{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    align-items: center;
+  }
+
+  .width_1{
+    /* width: 30%; */
+    width: 600px;
+  }
